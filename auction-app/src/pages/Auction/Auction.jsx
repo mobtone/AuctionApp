@@ -15,7 +15,7 @@ const Auction = () => {
     useEffect(() => {
         if(id){
         fetchAuctionById(id)};
-    }, [id, fetchAuctionById]);
+    }, [id]);
 
     if (!currentAuction) 
         return (<><Header/>
