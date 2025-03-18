@@ -1,0 +1,22 @@
+.signupStyle {
+    border: 1px solid #ccc; /* Lägg till en ram */
+      padding: 20px;
+      border-radius: 5px; /* Rundade hörn */
+      background-color: #f9f9f9; /* Ljus bakgrundsfärg */
+  }
+  
+  .signupStyle input
+   {
+      width: calc(100% - 16px); /* Gör inputfältet brett men lämna plats för padding */
+      padding: 8px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px; /* Mellanrum mellan fälten */
+  }
+  
+  .signupStyle button {
+      width: 100%; /* Gör knappen lika bred som inputfältet */
+      padding: 8px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      cursor: pointer;
+  }

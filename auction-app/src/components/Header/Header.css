@@ -1,0 +1,37 @@
+.header {
+    background-color: var(--secondary-color);
+    color: white;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .navMenu {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+    transition: background-color 0.2s;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .logout-button {
+    background-color: var(--accent-color);
+  }
+  
+  .logout-button:hover {
+    background-color: #c0392b;
+  }

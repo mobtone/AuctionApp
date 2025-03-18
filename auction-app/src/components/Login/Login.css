@@ -1,0 +1,21 @@
+.loginStyle {
+  border: 1px solid #ccc; /* Lägg till en ram */
+    padding: 20px;
+    border-radius: 5px; /* Rundade hörn */
+    background-color: #f9f9f9; /* Ljus bakgrundsfärg */
+}
+
+.loginStyle input
+ {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px; 
+ }
+.loginStyle button {
+    width: 100%; 
+    padding: 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}

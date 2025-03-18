@@ -1,0 +1,47 @@
+.bid-list {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #efefef; /* Ljusgrå bakgrund */
+    border: 1px solid #111111; /* Svart ram */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Skugga för djup */
+}
+
+.bid-list h2 {
+    margin-top: 0;
+    color: #111111; /* Svart textfärg */
+}
+
+.bid-list table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.bid-list th, .bid-list td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Ljusgrå horisontell divider */
+}
+
+.bid-list th {
+    background-color: #f2f2f2; /* Ljusgrå bakgrund för rubriker */
+    color: #111111; /* Svart textfärg för rubriker */
+}
+
+.bid-list tr:nth-child(even) {
+    background-color: #f9f9f9; /* Ljusgrå bakgrund för varannan rad */
+}
+
+.bid-list tr:hover {
+    background-color: #ddd; /* Ljusgrå hover-effekt */
+}
+.bid-list table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bid-list th, .bid-list td {
+    padding: 10px;
+    text-align: left; /* Anpassa efter behov */
+    width: 33.33%; /* Anpassa kolumnbredden */
+}

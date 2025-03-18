@@ -1,0 +1,35 @@
+.auctionActions {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+    align-items: center;
+  }
+  
+  .editButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .deleteButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .deleteButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .infoText {
+    color: #f44336;
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }

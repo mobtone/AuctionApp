@@ -1,0 +1,38 @@
+.homeContainer {
+   display: grid;
+grid-template-columns: 4fr 1fr;
+grid-template-rows: auto auto 1fr;
+gap: 20px;
+   margin: 20px auto;
+   max-width: 1200px; 
+}
+
+ .logo {
+   grid-column: span 2;
+   font-size: 5rem;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+ .searchContainer {
+   grid-column: span 2;
+   display: flex;
+   justify-content: center; 
+}
+ 
+ 
+.auctionsContainer {
+ grid-column:1;
+ grid-row: 3;
+ display:flex;
+ flex-wrap: wrap;
+ gap: 10px;
+}
+
+.rightContiner{
+   grid-column: 2;
+   grid-row: 3;
+display: flex;
+flex-direction:column;
+gap: 20px;
+} 

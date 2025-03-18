@@ -1,0 +1,29 @@
+.createAuctionForm {
+    border: 1px solid #ccc; 
+    padding: 20px;
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+    width: 50%; /*anpassar bredden till containern */
+    max-width: 300px;
+}
+
+.createAuctionForm input {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px; 
+}
+
+.createAuctionForm textarea {
+    width: calc(100% - 16px); 
+    border: 1px solid #ccc;
+    margin-bottom: 10px; 
+}
+
+.createAuctionForm button {
+    width: 100%; 
+    padding: 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
